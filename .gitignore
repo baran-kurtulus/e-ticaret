@@ -1,0 +1,35 @@
+# ---- .NET / Rider / Visual Studio ----
+bin/
+obj/
+[Bb]uild/
+*.user
+*.suo
+*.sln.docstates
+*.ide/
+.vs/
+.idea/
+
+# Rider caches
+.idea/
+*.sln.iml
+
+# ---- Node / Angular ----
+EticaretUI/node_modules/
+EticaretUI/dist/
+EticaretUI/.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Editor ----
+.vscode/
+*.code-workspace
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Coverage / Reports ----
+coverage/
+*.lcov
